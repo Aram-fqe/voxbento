@@ -581,6 +581,17 @@ label {
   font-weight: 700;
 }
 
+.header-btn--handover.state-green:hover:not(:disabled) {
+  background: var(--bx-live-ink);
+  color: #fff;
+  border-color: var(--bx-live-ink);
+}
+
+.header-btn--handover.state-flash-yellow:hover:not(:disabled) {
+  color: #1c1e21;
+  border-color: #d97706;
+}
+
 @keyframes flash-yellow {
   0%, 100% { background: #fbbf24; box-shadow: 0 0 0 0 rgb(251 191 36 / 0.5); }
   50% { background: #f59e0b; box-shadow: 0 0 8px 2px rgb(251 191 36 / 0.4); }
